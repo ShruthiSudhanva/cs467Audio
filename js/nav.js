@@ -63,35 +63,35 @@ $('.chill').click(function () {
 	toVis();
 	$('#mTitle').text("Chill Music");
     data = allData["Chill"];
-    redraw();
+    draw();
 });
 $('.fun').click(function () {
 	toVis();
 	$('#mTitle').text("Fun Music");
     data = allData["Fun"];
-    redraw();
+    draw();
 });
 $('.party').click(function () {
 	toVis();
 	$('#mTitle').text("Party Music");
     data = allData["Party"];
-    redraw();
+    draw();
 });
 $('.relax').click(function () {
 	toVis();
 	$('#mTitle').text("Relaxing Music");
     data = allData["Relax"];
-    redraw();
+    draw();
 });
 $('.study').click(function () {
 	toVis();
 	$('#mTitle').text("Study Music");
     data = allData["Study"];
-    redraw();
+    draw();
 });
 $('.workout').click(function () {
 	toVis();
 	$('#mTitle').text("Workout Music");
     data = allData["Workout"];
-    redraw();
+    draw();
 });

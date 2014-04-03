@@ -20,49 +20,50 @@ function barStack(d) {
 
 /* Here is an example */
 
-var allData = {"Study":[[{x:1,y:-3,genre:"Jazz",artists:["Chris Botti","Louis Armstrong","Thelonious Monk"]},{x:2,y:-6,genre:"Jazz",artists:[""]},{x:3,y:-3,genre:"Jazz",artists:["Benny Goodman","Frank Sinatra"]},{x:4,y:-3,genre:"Jazz",artists:["Chris Botti"]},{x:5,y: 0,genre:"Jazz",artists:[""]}],
-            [{x:1,y:0,genre:"Classical",artists:["Wolfgang Mozart","Chicago Symphony"]},{x:2,y:-2,genre:"Classical",artists:["Ludwig Beethoven","Chicago Symphony"]},{x:3,y:-9,genre:"Classical",artists:["London Symphonic"]},{x:4,y:-3,genre:"Classical",artists:["Chicago Symphony","London Symphonic"]},{x:5,y:-6,genre:"Classical",artists:["Johann Bach","Johannes Brahms"]}],
-            [{x:1,y:-10,genre:"Karnatic",artists:[""]},{x:2,y:-3,genre:"Karnatic",artists:["Sudha Raghunathan","Soumya","Unnikrishnan","T.M.Balamuralikrishna"]},{x:3,y:0,genre:"Karnatic",artists:[""]},{x:4,y:-3,genre:"Karnatic",artists:[""]},{x:5,y:-6,genre:"Karnatic",artists:[""]}],
-            [{x:1,y:-5,genre:"Instrumental",artists:["Vitamin String Quartet"]},{x:2,y:-3,genre:"Instrumental",artists:[""]},{x:3,y:-2,genre:"Instrumental",artists:[""]},{x:4,y:-3,genre:"Instrumental",artists:["2Cellos"]},{x:5,y:0,genre:"Instrumental",artists:[""]}]]
-             ,"Workout":[[{x:1,y:-4,genre:"Jazz",artists:["Chris Botti","Louis Armstrong","Thelonious Monk"]},{x:2,y:-8,genre:"Jazz",artists:[""]},{x:3,y:-2,genre:"Jazz",artists:["Benny Goodman","Frank Sinatra"]},{x:4,y:-5,genre:"Jazz",artists:["Chris Botti"]},{x:5,y: 0,genre:"Jazz",artists:[""]}],
-            [{x:1,y:0,genre:"Classical",artists:["Wolfgang Mozart","Chicago Symphony"]},{x:2,y:-2,genre:"Classical",artists:["Ludwig Beethoven","Chicago Symphony"]},{x:3,y:-9,genre:"Classical",artists:["London Symphonic"]},{x:4,y:-3,genre:"Classical",artists:["Chicago Symphony","London Symphonic"]},{x:5,y:-6,genre:"Classical",artists:["Johann Bach","Johannes Brahms"]}],
-            [{x:1,y:-10,genre:"Karnatic",artists:[""]},{x:2,y:-4,genre:"Karnatic",artists:["Sudha Raghunathan","Soumya","Unnikrishnan","T.M.Balamuralikrishna"]},{x:3,y:0,genre:"Karnatic",artists:[""]},{x:4,y:-6,genre:"Karnatic",artists:[""]},{x:5,y:-2,genre:"Karnatic",artists:[""]}],
-            [{x:1,y:-3,genre:"Instrumental",artists:["Vitamin String Quartet"]},{x:2,y:-1,genre:"Instrumental",artists:[""]},{x:3,y:-7,genre:"Instrumental",artists:[""]},{x:4,y:-6,genre:"Instrumental",artists:["2Cellos"]},{x:5,y:-2,genre:"Instrumental",artists:[""]}],
-            [{x:1,y:-8,genre:"Techno",artists:["Fat Boy Slim","iiO"]},{x:2,y:-6,genre:"Techno",artists:[""]},{x:3,y:-3,genre:"Techno",artists:["Quench"]},{x:4,y:-5,genre:"Techno",artists:["Quench","OSnap!"]},{x:5,y:0,genre:"Techno",artists:[""]}],
-            [{x:1,y:-8,genre:"Hip-Hop",artists:[""]},{x:2,y:-4,genre:"Hip-Hop",artists:[""]},{x:3,y:-2,genre:"Hip-Hop",artists:["Kanye West","Jay-Z","50 Cent","Eminem","Lil Wayne"]},{x:4,y:-7,genre:"Hip-Hop",artists:[""]},{x:5,y:-7,genre:"Hip-Hop",artists:[""]}],
-            [{x:1,y:-9,genre:"World",artists:[""]},{x:2,y:-5,genre:"World",artists:["Shreya Ghoshal"]},{x:3,y:-2,genre:"World",artists:["Sunidhi Chauhan"]},{x:4,y:-3,genre:"World",artists:[""]},{x:5,y:-7,genre:"World",artists:["Alisha Chinai"]}]]
-            , "Relax":[[{x:1,y:-3,genre:"Jazz",artists:["Chris Botti","Louis Armstrong","Thelonious Monk"]},{x:2,y:-6,genre:"Jazz",artists:[""]},{x:3,y:-3,genre:"Jazz",artists:["Benny Goodman","Frank Sinatra"]},{x:4,y:-3,genre:"Jazz",artists:["Chris Botti"]},{x:5,y: 0,genre:"Jazz",artists:[""]}],
-            [{x:1,y:0,genre:"Classical",artists:["Wolfgang Mozart","Chicago Symphony"]},{x:2,y:-4,genre:"Classical",artists:["Ludwig Beethoven","Chicago Symphony"]},{x:3,y:-10,genre:"Classical",artists:["London Symphonic"]},{x:4,y:-6,genre:"Classical",artists:["Chicago Symphony","London Symphonic"]},{x:5,y:-8,genre:"Classical",artists:["Johann Bach","Johannes Brahms"]}],
-            [{x:1,y:-10,genre:"Karnatic",artists:[""]},{x:2,y:-3,genre:"Karnatic",artists:["Sudha Raghunathan","Soumya","Unnikrishnan","T.M.Balamuralikrishna"]},{x:3,y:0,genre:"Karnatic",artists:[""]},{x:4,y:-3,genre:"Karnatic",artists:[""]},{x:5,y:-6,genre:"Karnatic",artists:[""]}],
-            [{x:1,y:-5,genre:"Instrumental",artists:["Vitamin String Quartet"]},{x:2,y:-7,genre:"Instrumental",artists:[""]},{x:3,y:-2,genre:"Instrumental",artists:[""]},{x:4,y:-3,genre:"Instrumental",artists:["2Cellos"]},{x:5,y:0,genre:"Instrumental",artists:[""]}],
-            [{x:1,y:-4,genre:"Techno",artists:["Fat Boy Slim","iiO"]},{x:2,y:-2,genre:"Techno",artists:[""]},{x:3,y:-3,genre:"Techno",artists:["Quench"]},{x:4,y:-7,genre:"Techno",artists:["Quench","OSnap!"]},{x:5,y:-3,genre:"Techno",artists:[""]}],
-            [{x:1,y:-6,genre:"Hip-Hop",artists:[""]},{x:2,y:-3,genre:"Hip-Hop",artists:[""]},{x:3,y:-5,genre:"Hip-Hop",artists:["Kanye West","Jay-Z","50 Cent","Eminem","Lil Wayne"]},{x:4,y:-8,genre:"Hip-Hop",artists:[""]},{x:5,y:-7,genre:"Hip-Hop",artists:[""]}],
-            [{x:1,y:-10,genre:"World",artists:[""]},{x:2,y:-3,genre:"World",artists:["Shreya Ghoshal"]},{x:3,y:0,genre:"World",artists:["Sunidhi Chauhan"]},{x:4,y:-3,genre:"World",artists:[""]},{x:5,y:-6,genre:"World",artists:["Alisha Chinai"]}]]
-            ,"Party":[[{x:1,y:-6,genre:"Jazz",artists:["Chris Botti","Louis Armstrong","Thelonious Monk"]},{x:2,y:-1,genre:"Jazz",artists:[""]},{x:3,y:0,genre:"Jazz",artists:["Benny Goodman","Frank Sinatra"]},{x:4,y:-9,genre:"Jazz",artists:["Chris Botti"]},{x:5,y: -6,genre:"Jazz",artists:[""]}],
-            [{x:1,y:-2,genre:"Classical",artists:["Wolfgang Mozart","Chicago Symphony"]},{x:2,y:0,genre:"Classical",artists:["Ludwig Beethoven","Chicago Symphony"]},{x:3,y:-4,genre:"Classical",artists:["London Symphonic"]},{x:4,y:-7,genre:"Classical",artists:["Chicago Symphony","London Symphonic"]},{x:5,y:-3,genre:"Classical",artists:["Johann Bach","Johannes Brahms"]}],
-            [{x:1,y:-10,genre:"Karnatic",artists:[""]},{x:2,y:-3,genre:"Karnatic",artists:["Sudha Raghunathan","Soumya","Unnikrishnan","T.M.Balamuralikrishna"]},{x:3,y:0,genre:"Karnatic",artists:[""]},{x:4,y:-3,genre:"Karnatic",artists:[""]},{x:5,y:-6,genre:"Karnatic",artists:[""]}],
-            [{x:1,y:-8,genre:"Instrumental",artists:["Vitamin String Quartet"]},{x:2,y:-2,genre:"Instrumental",artists:[""]},{x:3,y:-8,genre:"Instrumental",artists:[""]},{x:4,y:-5,genre:"Instrumental",artists:["2Cellos"]},{x:5,y:0,genre:"Instrumental",artists:[""]}],
-            [{x:1,y:-8,genre:"Techno",artists:["Fat Boy Slim","iiO"]},{x:2,y:-6,genre:"Techno",artists:[""]},{x:3,y:-5,genre:"Techno",artists:["Quench"]},{x:4,y:-6,genre:"Techno",artists:["Quench","OSnap!"]},{x:5,y:-4,genre:"Techno",artists:[""]}],
-            [{x:1,y:-8,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop",artists:[""]},{x:3,y:-4,genre:"Hip-Hop",artists:["Kanye West","Jay-Z","50 Cent","Eminem","Lil Wayne"]},{x:4,y:-3,genre:"Hip-Hop",artists:[""]},{x:5,y:-2,genre:"Hip-Hop",artists:[""]}],
-            [{x:1,y:-10,genre:"World",artists:[""]},{x:2,y:0,genre:"World",artists:["Shreya Ghoshal"]},{x:3,y:0,genre:"World",artists:["Sunidhi Chauhan"]},{x:4,y:-3,genre:"World",artists:[""]},{x:5,y:-6,genre:"World",artists:["Alisha Chinai"]}]]
-            ,"Chill":[[{x:1,y:-3,genre:"Jazz",artists:["Chris Botti","Louis Armstrong","Theolonious Monk"]},{x:2,y:-6,genre:"Jazz",artists:[""]},{x:3,y:-3,genre:"Jazz",artists:["Benny Goodman","Frank Sinatra"]},{x:4,y:-3,genre:"Jazz",artists:["Chris Botti"]},{x:5,y: 0,genre:"Jazz",artists:[""]}],
-            [{x:1,y:0,genre:"Classical",artists:["Wolfgang Mozart","Chicago Symphony"]},{x:2,y:-2,genre:"Classical",artists:["Ludwig Beethoven","Chicago Symphony"]},{x:3,y:-9,genre:"Classical",artists:["London Symphonic"]},{x:4,y:-3,genre:"Classical",artists:["Chicago Symphony","London Symphonic"]},{x:5,y:-6,genre:"Classical",artists:["Johann Bach","Johannes Brahms"]}],
-            [{x:1,y:-4,genre:"Karnatic",artists:[""]},{x:2,y:-5,genre:"Karnatic",artists:["Sudha Raghunathan","Soumya","Unnikrishnan","T.M.Balamuralikrishna"]},{x:3,y:-2,genre:"Karnatic",artists:[""]},{x:4,y:-5,genre:"Karnatic",artists:[""]},{x:5,y:-8,genre:"Karnatic",artists:[""]}],
-            [{x:1,y:-6,genre:"Instrumental",artists:["Vitamin String Quartet"]},{x:2,y:-5,genre:"Instrumental",artists:[""]},{x:3,y:-4,genre:"Instrumental",artists:[""]},{x:4,y:-7,genre:"Instrumental",artists:["2Cellos"]},{x:5,y:-2,genre:"Instrumental",artists:[""]}],
-            [{x:1,y:-7,genre:"Techno",artists:["Fat Boy Slim","iiO"]},{x:2,y:-5,genre:"Techno",artists:[""]},{x:3,y:-4,genre:"Techno",artists:["Quench"]},{x:4,y:-5,genre:"Techno",artists:["Quench","OSnap!"]},{x:5,y:-2,genre:"Techno",artists:[""]}],
-            [{x:1,y:-7,genre:"Hip-Hop",artists:[""]},{x:2,y:-3,genre:"Hip-Hop",artists:[""]},{x:3,y:0,genre:"Hip-Hop",artists:["Kanye West","Jay-Z","50 Cent","Eminem","Lil Wayne"]},{x:4,y:-3,genre:"Hip-Hop",artists:[""]},{x:5,y:-8,genre:"Hip-Hop",artists:[""]}],
-            [{x:1,y:-8,genre:"World",artists:[""]},{x:2,y:-6,genre:"World",artists:["Shreya Ghoshal"]},{x:3,y:-2,genre:"World",artists:["Sunidhi Chauhan"]},{x:4,y:-5,genre:"World",artists:[""]},{x:5,y:0,genre:"World",artists:["Alisha Chinai"]}]]
-            ,"Fun":[[{x:1,y:-4,genre:"Jazz",artists:["Chris Botti","Louis Armstrong","Theolonious Monk"]},{x:2,y:-8,genre:"Jazz",artists:[""]},{x:3,y:-4,genre:"Jazz",artists:["Benny Goodman","Frank Sinatra"]},{x:4,y:-5,genre:"Jazz",artists:["Chris Botti"]},{x:5,y:-3,genre:"Jazz",artists:[""]}],
-            [{x:1,y:0,genre:"Classical",artists:["Wolfgang Mozart","Chicago Symphony"]},{x:2,y:-2,genre:"Classical",artists:["Ludwig Beethoven","Chicago Symphony"]},{x:3,y:-9,genre:"Classical",artists:["London Symphonic"]},{x:4,y:-3,genre:"Classical",artists:["Chicago Symphony","London Symphonic"]},{x:5,y:-6,genre:"Classical",artists:["Johann Bach","Johannes Brahms"]}],
-            [{x:1,y:-2,genre:"Karnatic",artists:[""]},{x:2,y:-6,genre:"Karnatic",artists:["Sudha Raghunathan","Soumya","Unnikrishnan","T.M.Balamuralikrishna"]},{x:3,y:-8,genre:"Karnatic",artists:[""]},{x:4,y:-5,genre:"Karnatic",artists:[""]},{x:5,y:-7,genre:"Karnatic",artists:[""]}],
-            [{x:1,y:-5,genre:"Instrumental",artists:["Vitamin String Quartet"]},{x:2,y:-3,genre:"Instrumental",artists:[""]},{x:3,y:-2,genre:"Instrumental",artists:[""]},{x:4,y:-3,genre:"Instrumental",artists:["2Cellos"]},{x:5,y:0,genre:"Instrumental",artists:[""]}],
-            [{x:1,y:-6,genre:"Techno",artists:["Fat Boy Slim","iiO"]},{x:2,y:-4,genre:"Techno",artists:[""]},{x:3,y:-6,genre:"Techno",artists:["Quench"]},{x:4,y:-7,genre:"Techno",artists:["Quench","OSnap!"]},{x:5,y:-2,genre:"Techno",artists:[""]}],
-            [{x:1,y:0,genre:"Hip-Hop",artists:[""]},{x:2,y:-3,genre:"Hip-Hop",artists:[""]},{x:3,y:0,genre:"Hip-Hop",artists:["Kanye West","Jay-Z","50 Cent","Eminem","Lil Wayne"]},{x:4,y:-3,genre:"Hip-Hop",artists:[""]},{x:5,y:0,genre:"Hip-Hop",artists:[""]}],
-            [{x:1,y:0,genre:"World",artists:[""]},{x:2,y:-8,genre:"World",artists:["Shreya Ghoshal"]},{x:3,y:-7,genre:"World",artists:["Sunidhi Chauhan"]},{x:4,y:-3,genre:"World",artists:[""]},{x:5,y:-6,genre:"World",artists:["Alisha Chinai"]}]] }            
+var allData = {"Study":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}]]
+             ,"Workout":[[{x:1,y:-4,genre:"Jazz"},{x:2,y:-8,genre:"Jazz"},{x:3,y:-2,genre:"Jazz"},{x:4,y:-5,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-4,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-6,genre:"Karnatic"},{x:5,y:-2,genre:"Karnatic"}],
+            [{x:1,y:-3,genre:"Instrumental"},{x:2,y:-1,genre:"Instrumental"},{x:3,y:-7,genre:"Instrumental"},{x:4,y:-6,genre:"Instrumental"},{x:5,y:-2,genre:"Instrumental"}],
+            [{x:1,y:-8,genre:"Techno"},{x:2,y:-6,genre:"Techno"},{x:3,y:-3,genre:"Techno"},{x:4,y:-5,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:-8,genre:"Hip-Hop"},{x:2,y:-4,genre:"Hip-Hop"},{x:3,y:-2,genre:"Hip-Hop"},{x:4,y:-7,genre:"Hip-Hop"},{x:5,y:-7,genre:"Hip-Hop"}],
+            [{x:1,y:-9,genre:"World"},{x:2,y:-5,genre:"World"},{x:3,y:-2,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-7,genre:"World"}]]
+            , "Relax":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-4,genre:"Classical"},{x:3,y:-10,genre:"Classical"},{x:4,y:-6,genre:"Classical"},{x:5,y:-8,genre:"Classical"}],
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-7,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-4,genre:"Techno"},{x:2,y:-2,genre:"Techno"},{x:3,y:-3,genre:"Techno"},{x:4,y:-7,genre:"Techno"},{x:5,y:-3,genre:"Techno"}],
+            [{x:1,y:-6,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:-5,genre:"Hip-Hop"},{x:4,y:-8,genre:"Hip-Hop"},{x:5,y:-7,genre:"Hip-Hop"}],
+            [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
+            ,"Party":[[{x:1,y:-6,genre:"Jazz"},{x:2,y:-1,genre:"Jazz"},{x:3,y:0,genre:"Jazz"},{x:4,y:-9,genre:"Jazz"},{x:5,y: -6,genre:"Jazz"}],
+            [{x:1,y:-2,genre:"Classical"},{x:2,y:0,genre:"Classical"},{x:3,y:-4,genre:"Classical"},{x:4,y:-7,genre:"Classical"},{x:5,y:-3,genre:"Classical"}],
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-8,genre:"Instrumental"},{x:2,y:-2,genre:"Instrumental"},{x:3,y:-8,genre:"Instrumental"},{x:4,y:-5,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-8,genre:"Techno"},{x:2,y:-6,genre:"Techno"},{x:3,y:-5,genre:"Techno"},{x:4,y:-6,genre:"Techno"},{x:5,y:-4,genre:"Techno"}],
+            [{x:1,y:-8,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:-4,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:-2,genre:"Hip-Hop"}],
+            [{x:1,y:-10,genre:"World"},{x:2,y:0,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
+            ,"Chill":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:-4,genre:"Karnatic"},{x:2,y:-5,genre:"Karnatic"},{x:3,y:-2,genre:"Karnatic"},{x:4,y:-5,genre:"Karnatic"},{x:5,y:-8,genre:"Karnatic"}],
+            [{x:1,y:-6,genre:"Instrumental"},{x:2,y:-5,genre:"Instrumental"},{x:3,y:-4,genre:"Instrumental"},{x:4,y:-7,genre:"Instrumental"},{x:5,y:-2,genre:"Instrumental"}],
+            [{x:1,y:-7,genre:"Techno"},{x:2,y:-5,genre:"Techno"},{x:3,y:-4,genre:"Techno"},{x:4,y:-5,genre:"Techno"},{x:5,y:-2,genre:"Techno"}],
+            [{x:1,y:-7,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:-8,genre:"Hip-Hop"}],
+            [{x:1,y:-8,genre:"World"},{x:2,y:-6,genre:"World"},{x:3,y:-2,genre:"World"},{x:4,y:-5,genre:"World"},{x:5,y:0,genre:"World"}]]
+            ,"Fun":[[{x:1,y:-4,genre:"Jazz"},{x:2,y:-8,genre:"Jazz"},{x:3,y:-4,genre:"Jazz"},{x:4,y:-5,genre:"Jazz"},{x:5,y:-3,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:-2,genre:"Karnatic"},{x:2,y:-6,genre:"Karnatic"},{x:3,y:-8,genre:"Karnatic"},{x:4,y:-5,genre:"Karnatic"},{x:5,y:-7,genre:"Karnatic"}],
+            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-6,genre:"Techno"},{x:2,y:-4,genre:"Techno"},{x:3,y:-6,genre:"Techno"},{x:4,y:-7,genre:"Techno"},{x:5,y:-2,genre:"Techno"}],
+            [{x:1,y:0,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:0,genre:"Hip-Hop"}],
+            [{x:1,y:0,genre:"World"},{x:2,y:-8,genre:"World"},{x:3,y:-7,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]] }            
 
 var data = allData["Chill"]
 
-
+function draw() {
+d3.select("svg").remove();
 var  h=500
     ,w=1200
     ,margin=10
@@ -96,7 +97,7 @@ svg = d3.select("#chart")
 var barChart = svg.selectAll(".series").data(data)
     .enter().append("g").classed("series",true).style("fill", function(d,i) { return color[i]})
         .selectAll("rect").data(Object)
-        .enter()
+        .enter();
 
 barChart.append("rect");
 barChart.append("text");
@@ -107,7 +108,6 @@ svg.append("g").attr("class","axis y")
 var layout = 0,dur=0
 redraw()
 dur = 1500
-
 
 function redraw() {
         /* Readjust the range to witdh and height */
@@ -141,4 +141,5 @@ function redraw() {
             .style("text-anchor", "middle")
             .style("font-weight", "bold");
 
+}
 }
