@@ -24,41 +24,41 @@ var allData = {"Study":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:
             [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
             [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
             [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}]]
-             ,"Workout":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+             ,"Workout":[[{x:1,y:-4,genre:"Jazz"},{x:2,y:-8,genre:"Jazz"},{x:3,y:-2,genre:"Jazz"},{x:4,y:-5,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
             [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
-            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
-            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
-            [{x:1,y:-5,genre:"Techno"},{x:2,y:-3,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
-            [{x:1,y:-10,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-1,genre:"Hip-Hop"},{x:5,y:-9,genre:"Hip-Hop"}],
-            [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-1,genre:"World"},{x:5,y:-5,genre:"World"}]]
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-4,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-6,genre:"Karnatic"},{x:5,y:-2,genre:"Karnatic"}],
+            [{x:1,y:-3,genre:"Instrumental"},{x:2,y:-1,genre:"Instrumental"},{x:3,y:-7,genre:"Instrumental"},{x:4,y:-6,genre:"Instrumental"},{x:5,y:-2,genre:"Instrumental"}],
+            [{x:1,y:-8,genre:"Techno"},{x:2,y:-6,genre:"Techno"},{x:3,y:-3,genre:"Techno"},{x:4,y:-5,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:-8,genre:"Hip-Hop"},{x:2,y:-4,genre:"Hip-Hop"},{x:3,y:-2,genre:"Hip-Hop"},{x:4,y:-7,genre:"Hip-Hop"},{x:5,y:-7,genre:"Hip-Hop"}],
+            [{x:1,y:-9,genre:"World"},{x:2,y:-5,genre:"World"},{x:3,y:-2,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-7,genre:"World"}]]
             , "Relax":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
-            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-4,genre:"Classical"},{x:3,y:-10,genre:"Classical"},{x:4,y:-6,genre:"Classical"},{x:5,y:-8,genre:"Classical"}],
             [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
             [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-7,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
-            [{x:1,y:-5,genre:"Techno"},{x:2,y:-4,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
-            [{x:1,y:-10,genre:"Hip-Hop"},{x:2,y:-5,genre:"Hip-Hop"},{x:3,y:-2,genre:"Hip-Hop"},{x:4,y:-5,genre:"Hip-Hop"},{x:5,y:-4,genre:"Hip-Hop"}],
+            [{x:1,y:-4,genre:"Techno"},{x:2,y:-2,genre:"Techno"},{x:3,y:-3,genre:"Techno"},{x:4,y:-7,genre:"Techno"},{x:5,y:-3,genre:"Techno"}],
+            [{x:1,y:-6,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:-5,genre:"Hip-Hop"},{x:4,y:-8,genre:"Hip-Hop"},{x:5,y:-7,genre:"Hip-Hop"}],
             [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
-            ,"Party":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
-            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            ,"Party":[[{x:1,y:-6,genre:"Jazz"},{x:2,y:-1,genre:"Jazz"},{x:3,y:0,genre:"Jazz"},{x:4,y:-9,genre:"Jazz"},{x:5,y: -6,genre:"Jazz"}],
+            [{x:1,y:-2,genre:"Classical"},{x:2,y:0,genre:"Classical"},{x:3,y:-4,genre:"Classical"},{x:4,y:-7,genre:"Classical"},{x:5,y:-3,genre:"Classical"}],
             [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
-            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
-            [{x:1,y:-5,genre:"Techno"},{x:2,y:-3,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
-            [{x:1,y:-8,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:-6,genre:"Hip-Hop"}],
-            [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
+            [{x:1,y:-8,genre:"Instrumental"},{x:2,y:-2,genre:"Instrumental"},{x:3,y:-8,genre:"Instrumental"},{x:4,y:-5,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-8,genre:"Techno"},{x:2,y:-6,genre:"Techno"},{x:3,y:-5,genre:"Techno"},{x:4,y:-6,genre:"Techno"},{x:5,y:-4,genre:"Techno"}],
+            [{x:1,y:-8,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:-4,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:-2,genre:"Hip-Hop"}],
+            [{x:1,y:-10,genre:"World"},{x:2,y:0,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
             ,"Chill":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
             [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
-            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
-            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
-            [{x:1,y:-5,genre:"Techno"},{x:2,y:-3,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:-4,genre:"Karnatic"},{x:2,y:-5,genre:"Karnatic"},{x:3,y:-2,genre:"Karnatic"},{x:4,y:-5,genre:"Karnatic"},{x:5,y:-8,genre:"Karnatic"}],
+            [{x:1,y:-6,genre:"Instrumental"},{x:2,y:-5,genre:"Instrumental"},{x:3,y:-4,genre:"Instrumental"},{x:4,y:-7,genre:"Instrumental"},{x:5,y:-2,genre:"Instrumental"}],
+            [{x:1,y:-7,genre:"Techno"},{x:2,y:-5,genre:"Techno"},{x:3,y:-4,genre:"Techno"},{x:4,y:-5,genre:"Techno"},{x:5,y:-2,genre:"Techno"}],
             [{x:1,y:-7,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:-8,genre:"Hip-Hop"}],
-            [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
-            ,"Fun":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:-8,genre:"World"},{x:2,y:-6,genre:"World"},{x:3,y:-2,genre:"World"},{x:4,y:-5,genre:"World"},{x:5,y:0,genre:"World"}]]
+            ,"Fun":[[{x:1,y:-4,genre:"Jazz"},{x:2,y:-8,genre:"Jazz"},{x:3,y:-4,genre:"Jazz"},{x:4,y:-5,genre:"Jazz"},{x:5,y:-3,genre:"Jazz"}],
             [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
-            [{x:1,y:0,genre:"Karnatic"},{x:2,y:0,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-1,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-2,genre:"Karnatic"},{x:2,y:-6,genre:"Karnatic"},{x:3,y:-8,genre:"Karnatic"},{x:4,y:-5,genre:"Karnatic"},{x:5,y:-7,genre:"Karnatic"}],
             [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
-            [{x:1,y:-5,genre:"Techno"},{x:2,y:-3,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:-6,genre:"Techno"},{x:2,y:-4,genre:"Techno"},{x:3,y:-6,genre:"Techno"},{x:4,y:-7,genre:"Techno"},{x:5,y:-2,genre:"Techno"}],
             [{x:1,y:0,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:0,genre:"Hip-Hop"}],
-            [{x:1,y:-1,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:5,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]] }            
+            [{x:1,y:0,genre:"World"},{x:2,y:-8,genre:"World"},{x:3,y:-7,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]] }            
 
 var data = allData["Chill"]
 
