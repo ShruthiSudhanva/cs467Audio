@@ -118,64 +118,64 @@
 
 /* Stavan Playlist sizes */
 .stavan .party{
-	height: 75px;
+	height: 125px;
 	width: 100%;
 }
 .stavan .relax{
-	height: 175px;
-	width: 100%;
-}
-.stavan .study{
-	height: 100px;
-	width: 100%;
-}
-.stavan .workout{
 	height: 50px;
 	width: 100%;
 }
+.stavan .study{
+	height: 175px;
+	width: 100%;
+}
+.stavan .workout{
+	height: 100px;
+	width: 100%;
+}
 .stavan .party h4{
-	line-height: 75px;
+	line-height: 125px;
 }
 .stavan .relax h4{
-	line-height: 175px;
+	line-height: 50px;
 }
 .stavan .study h4{
-	line-height: 100px;
+	line-height: 175px;
 }
 .stavan .workout h4{
-	line-height: 50px;
+	line-height: 100px;
 }
 
 /* Shruthi Playlist sizes */
 .shruthi .fun{
-	height: 75px;
+	height: 50px;
 	width: 100%;
 }
 .shruthi .party{
-	height: 75px;
+	height: 25px;
 	width: 100%;
 }
 .shruthi .study{
-	height: 100px;
+	height: 175px;
 	width: 100%;
 }
 .shruthi .fun h4{
-	line-height: 75px;
+	line-height: 50px;
 }
 .shruthi .party h4{
-	line-height: 75px;
+	line-height: 25px;
 }
 .shruthi .study h4{
-	line-height: 100px;
+	line-height: 175px;
 }
 
 /* Rimi Playlist sizes */
 .rimi .party{
-	height: 75px;
+	height: 50px;
 	width: 100%;
 }
 .rimi .relax{
-	height: 175px;
+	height: 125px;
 	width: 100%;
 }
 .rimi .study{
@@ -183,18 +183,18 @@
 	width: 100%;
 }
 .rimi .workout{
-	height: 50px;
+	height: 75px;
 	width: 100%;
 }
 .rimi .party h4{
-	line-height: 75px;
+	line-height: 50px;
 }
 .rimi .relax h4{
-	line-height: 175px;
+	line-height: 125px;
 }
 .rimi .study h4{
 	line-height: 100px;
 }
 .rimi .workout h4{
-	line-height: 50px;
+	line-height: 75px;
 }
