@@ -24,24 +24,54 @@ var allData = {"Study":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:
             [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
             [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
             [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}]]
-            }            
+             ,"Workout":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-5,genre:"Techno"},{x:2,y:-3,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:-10,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-1,genre:"Hip-Hop"},{x:5,y:-9,genre:"Hip-Hop"}],
+            [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-1,genre:"World"},{x:5,y:-5,genre:"World"}]]
+            , "Relax":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-7,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-5,genre:"Techno"},{x:2,y:-4,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:-10,genre:"Hip-Hop"},{x:2,y:-5,genre:"Hip-Hop"},{x:3,y:-2,genre:"Hip-Hop"},{x:4,y:-5,genre:"Hip-Hop"},{x:5,y:-4,genre:"Hip-Hop"}],
+            [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
+            ,"Party":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-5,genre:"Techno"},{x:2,y:-3,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:-8,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:-6,genre:"Hip-Hop"}],
+            [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
+            ,"Chill":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-5,genre:"Techno"},{x:2,y:-3,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:-7,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:-8,genre:"Hip-Hop"}],
+            [{x:1,y:-10,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:0,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]]
+            ,"Fun":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+            [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
+            [{x:1,y:0,genre:"Karnatic"},{x:2,y:0,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-1,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
+            [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}],
+            [{x:1,y:-5,genre:"Techno"},{x:2,y:-3,genre:"Techno"},{x:3,y:-2,genre:"Techno"},{x:4,y:-3,genre:"Techno"},{x:5,y:0,genre:"Techno"}],
+            [{x:1,y:0,genre:"Hip-Hop"},{x:2,y:-3,genre:"Hip-Hop"},{x:3,y:0,genre:"Hip-Hop"},{x:4,y:-3,genre:"Hip-Hop"},{x:5,y:0,genre:"Hip-Hop"}],
+            [{x:1,y:-1,genre:"World"},{x:2,y:-3,genre:"World"},{x:3,y:5,genre:"World"},{x:4,y:-3,genre:"World"},{x:5,y:-6,genre:"World"}]] }            
 
-var data = allData["Study"]
+var data = allData["Chill"]
 
 
 var  h=500
     ,w=1200
     ,margin=10
-    ,color = ["#0033CC", "#8A2E8A", "#ff7f0e", "#33CC33", "#CC0000", "#996633"]
+    ,color = ["#0033CC", "#8A2E8A", "#ff7f0e", "#33CC33", "#CC0000", "#996633", "#786f6f"]
     ,user = ["Shugo","Lavanya","Stavan","Rimi","Shruthi"]
 
     ,x = d3.scale.ordinal()
         .domain(d3.range(data[0].length+1))
         .rangeRoundBands([margin,w-margin], .1)
-
-    /*,x = d3.scale.ordinal()
-        .domain(user)
-        .rangeRoundBands([margin,w-margin], .1)*/
 
     ,y = d3.scale.linear()
         .range([h-margin,0+margin])
