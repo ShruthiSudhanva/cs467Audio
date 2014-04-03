@@ -1,0 +1,200 @@
+/* Menu */
+.menuCols h2{
+	text-align: center;
+	color: #EFEFEF;
+}
+.menuCols h4{
+	text-align: center;
+	vertical-align: middle;
+	color: #FFF;
+	margin: 0px;
+	text-shadow: 2px 2px 4px #333;
+}
+
+
+/* Playlist Genres */
+.chill{
+	background-image: url('../img/chill.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.fun{
+	background-image: url('../img/fun.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.party{
+	background-image: url('../img/party.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.relax{
+	background-image: url('../img/relax.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.study{
+	background-image: url('../img/study.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.workout{
+	background-image: url('../img/workout.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+/* Shugo Playlist sizes */
+.shugo .party{
+	height: 75px;
+	width: 100%;
+}
+.shugo .relax{
+	height: 175px;
+	width: 100%;
+}
+.shugo .study{
+	height: 100px;
+	width: 100%;
+}
+.shugo .workout{
+	height: 50px;
+	width: 100%;
+}
+.shugo .party h4{
+	line-height: 75px;
+}
+.shugo .relax h4{
+	line-height: 175px;
+}
+.shugo .study h4{
+	line-height: 100px;
+}
+.shugo .workout h4{
+	line-height: 50px;
+}
+
+/* Lavanya Playlist sizes */
+.lavanya .chill{
+	height: 75px;
+	width: 100%;
+}
+.lavanya .party{
+	height: 50px;
+	width: 100%;
+}
+.lavanya .relax{
+	height: 175px;
+	width: 100%;
+}
+.lavanya .study{
+	height: 125px;
+	width: 100%;
+}
+.lavanya .workout{
+	height: 25px;
+	width: 100%;
+}
+.lavanya .chill h4{
+	line-height: 75px;
+}
+.lavanya .party h4{
+	line-height: 50px;
+}
+.lavanya .relax h4{
+	line-height: 175px;
+}
+.lavanya .study h4{
+	line-height: 125px;
+}
+.lavanya .workout h4{
+	line-height: 25px;
+}
+
+/* Stavan Playlist sizes */
+.stavan .party{
+	height: 125px;
+	width: 100%;
+}
+.stavan .relax{
+	height: 50px;
+	width: 100%;
+}
+.stavan .study{
+	height: 175px;
+	width: 100%;
+}
+.stavan .workout{
+	height: 100px;
+	width: 100%;
+}
+.stavan .party h4{
+	line-height: 125px;
+}
+.stavan .relax h4{
+	line-height: 50px;
+}
+.stavan .study h4{
+	line-height: 175px;
+}
+.stavan .workout h4{
+	line-height: 100px;
+}
+
+/* Shruthi Playlist sizes */
+.shruthi .fun{
+	height: 50px;
+	width: 100%;
+}
+.shruthi .party{
+	height: 25px;
+	width: 100%;
+}
+.shruthi .study{
+	height: 175px;
+	width: 100%;
+}
+.shruthi .fun h4{
+	line-height: 50px;
+}
+.shruthi .party h4{
+	line-height: 25px;
+}
+.shruthi .study h4{
+	line-height: 175px;
+}
+
+/* Rimi Playlist sizes */
+.rimi .party{
+	height: 50px;
+	width: 100%;
+}
+.rimi .relax{
+	height: 125px;
+	width: 100%;
+}
+.rimi .study{
+	height: 100px;
+	width: 100%;
+}
+.rimi .workout{
+	height: 75px;
+	width: 100%;
+}
+.rimi .party h4{
+	line-height: 50px;
+}
+.rimi .relax h4{
+	line-height: 125px;
+}
+.rimi .study h4{
+	line-height: 100px;
+}
+.rimi .workout h4{
+	line-height: 75px;
+}
