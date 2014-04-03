@@ -26,12 +26,13 @@ function toMenu()
 
 function showArtists()
 {
-
+	mode = 1;
 	$('#btn_toggle').text("Switch to Genres").addClass("btn-info").removeClass("btn-success");
 }
 
 function showGenres()
 {
+	mode = 0;
 	$('#btn_toggle').text("Switch to Artists").addClass("btn-success").removeClass("btn-info");
 }
 
@@ -53,9 +54,11 @@ $('#btn_toggle').click(function(){
     if(mode == 0){
     	showArtists();
     	mode = 1;
+    	draw();
     } else {
     	showGenres();
     	mode = 0;
+    	draw();
     }
 });
 
