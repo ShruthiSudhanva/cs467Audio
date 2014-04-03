@@ -6,8 +6,9 @@
 .menuCols h4{
 	text-align: center;
 	vertical-align: middle;
-	color: #EFEFEF;
+	color: #FFF;
 	margin: 0px;
+	text-shadow: 2px 2px 4px #333;
 }
 
 
@@ -64,4 +65,136 @@
 .shugo .workout{
 	height: 50px;
 	width: 100%;
+}
+.shugo .party h4{
+	line-height: 75px;
+}
+.shugo .relax h4{
+	line-height: 175px;
+}
+.shugo .study h4{
+	line-height: 100px;
+}
+.shugo .workout h4{
+	line-height: 50px;
+}
+
+/* Lavanya Playlist sizes */
+.lavanya .chill{
+	height: 75px;
+	width: 100%;
+}
+.lavanya .party{
+	height: 75px;
+	width: 100%;
+}
+.lavanya .relax{
+	height: 175px;
+	width: 100%;
+}
+.lavanya .study{
+	height: 100px;
+	width: 100%;
+}
+.lavanya .workout{
+	height: 50px;
+	width: 100%;
+}
+.lavanya .chill h4{
+	line-height: 75px;
+}
+.lavanya .party h4{
+	line-height: 75px;
+}
+.lavanya .relax h4{
+	line-height: 175px;
+}
+.lavanya .study h4{
+	line-height: 100px;
+}
+.lavanya .workout h4{
+	line-height: 50px;
+}
+
+/* Stavan Playlist sizes */
+.stavan .party{
+	height: 75px;
+	width: 100%;
+}
+.stavan .relax{
+	height: 175px;
+	width: 100%;
+}
+.stavan .study{
+	height: 100px;
+	width: 100%;
+}
+.stavan .workout{
+	height: 50px;
+	width: 100%;
+}
+.stavan .party h4{
+	line-height: 75px;
+}
+.stavan .relax h4{
+	line-height: 175px;
+}
+.stavan .study h4{
+	line-height: 100px;
+}
+.stavan .workout h4{
+	line-height: 50px;
+}
+
+/* Shruthi Playlist sizes */
+.shruthi .fun{
+	height: 75px;
+	width: 100%;
+}
+.shruthi .party{
+	height: 75px;
+	width: 100%;
+}
+.shruthi .study{
+	height: 100px;
+	width: 100%;
+}
+.shruthi .fun h4{
+	line-height: 75px;
+}
+.shruthi .party h4{
+	line-height: 75px;
+}
+.shruthi .study h4{
+	line-height: 100px;
+}
+
+/* Rimi Playlist sizes */
+.rimi .party{
+	height: 75px;
+	width: 100%;
+}
+.rimi .relax{
+	height: 175px;
+	width: 100%;
+}
+.rimi .study{
+	height: 100px;
+	width: 100%;
+}
+.rimi .workout{
+	height: 50px;
+	width: 100%;
+}
+.rimi .party h4{
+	line-height: 75px;
+}
+.rimi .relax h4{
+	line-height: 175px;
+}
+.rimi .study h4{
+	line-height: 100px;
+}
+.rimi .workout h4{
+	line-height: 50px;
 }
