@@ -85,7 +85,7 @@
 	width: 100%;
 }
 .lavanya .party{
-	height: 75px;
+	height: 50px;
 	width: 100%;
 }
 .lavanya .relax{
@@ -93,27 +93,27 @@
 	width: 100%;
 }
 .lavanya .study{
-	height: 100px;
+	height: 125px;
 	width: 100%;
 }
 .lavanya .workout{
-	height: 50px;
+	height: 25px;
 	width: 100%;
 }
 .lavanya .chill h4{
 	line-height: 75px;
 }
 .lavanya .party h4{
-	line-height: 75px;
+	line-height: 50px;
 }
 .lavanya .relax h4{
 	line-height: 175px;
 }
 .lavanya .study h4{
-	line-height: 100px;
+	line-height: 125px;
 }
 .lavanya .workout h4{
-	line-height: 50px;
+	line-height: 25px;
 }
 
 /* Stavan Playlist sizes */
