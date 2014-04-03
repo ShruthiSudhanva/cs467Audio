@@ -1,75 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="http://mbostock.github.com/d3/d3.v2.js"></script>
-<title>barStack</title>  
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
-        <style>
-            body {
-                padding-top: 20px;
-                padding-bottom: 20px;
-                background: black;
-            }
-            .axis text {
-                font: 10px sans-serif;
-            }
-            h1
-            {
-                text-align: center;
-                color: white;
-            }
+    <script src="http://mbostock.github.com/d3/d3.v2.js"></script>
+    <title>Playlist Visualizer</title>  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: black;
+    }
+    .axis text {
+        font: 10px sans-serif;
+    }
+    h1
+    {
+        text-align: center;
+        color: white;
+    }
+    </style>
 
-        </style>
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body bgcolor="black">
-<h1 id="mTitle">Select Playlist Type</h1>
-<div id="menu">
     <div class="container">
-        <div class="row menuCols">
-            <div class="shugo col-md-2">
-                <h2>Shugo</h2>
-                <div class="party"><h4>Party</h4></div>
-                <div class="relax"><h4>Relax</h4></div>
-                <div class="study"><h4>Study</h4></div>
-                <div class="workout"><h4>Workout</h4></div>
+        <div class="row">
+            <div class="col-md-2">
+                <button id="btn_back" type="button" class="btn btn-primary btn-block">Back</button>
             </div>
-            <div class="lavanya col-md-2">
-                <h2>Lavanya</h2>
-                <div class="chill"><h4>Chill</h4></div>
-                <div class="party"><h4>Party</h4></div>
-                <div class="relax"><h4>Relax</h4></div>
-                <div class="study"><h4>Study</h4></div>
-                <div class="workout"><h4>Workout</h4></div>
+            <div class="col-md-6">
+                <h1 id="mTitle">Select Playlist Type</h1>
             </div>
-            <div class="stavan col-md-2">
-                <h2>Stavan</h2>
-                <div class="party"><h4>Party</h4></div>
-                <div class="relax"><h4>Relax</h4></div>
-                <div class="study"><h4>Study</h4></div>
-                <div class="workout"><h4>Workout</h4></div>
-            </div>
-            <div class="shruthi col-md-2">
-                <h2>Shruthi</h2>
-                <div class="fun"><h4>Fun</h4></div>
-                <div class="party"><h4>Party</h4></div>
-                <div class="study"><h4>Study</h4></div>
-            </div>
-            <div class="rimi col-md-2">
-                <h2>Rimi</h2>
-                <div class="party"><h4>Party</h4></div>
-                <div class="relax"><h4>Relax</h4></div>
-                <div class="study"><h4>Study</h4></div>
-                <div class="workout"><h4>Workout</h4></div>
+            <div class="col-md-2">
+                <button id="btn_toggle" type="button" class="btn btn-success btn-block">Switch to Artists</button>
             </div>
         </div>
     </div>
-</div>
-<!--<div id="chart"></div>-->
-<script src="js/vendor/jquery-1.10.1.min.js"></script>
-<script src="js/nav.js"></script>
-<script src="js/chart2.js"></script>
+    <div class="container">
+        <div class="row">
+            <div id="menu">
+                <div class="shugo col-md-2">
+                    <h2>Shugo</h2>
+                    <div class="party"><h4>Party</h4></div>
+                    <div class="relax"><h4>Relax</h4></div>
+                    <div class="study"><h4>Study</h4></div>
+                    <div class="workout"><h4>Workout</h4></div>
+                </div>
+                <div class="lavanya col-md-2">
+                    <h2>Lavanya</h2>
+                    <div class="chill"><h4>Chill</h4></div>
+                    <div class="party"><h4>Party</h4></div>
+                    <div class="relax"><h4>Relax</h4></div>
+                    <div class="study"><h4>Study</h4></div>
+                    <div class="workout"><h4>Workout</h4></div>
+                </div>
+                <div class="stavan col-md-2">
+                    <h2>Stavan</h2>
+                    <div class="party"><h4>Party</h4></div>
+                    <div class="relax"><h4>Relax</h4></div>
+                    <div class="study"><h4>Study</h4></div>
+                    <div class="workout"><h4>Workout</h4></div>
+                </div>
+                <div class="shruthi col-md-2">
+                    <h2>Shruthi</h2>
+                    <div class="fun"><h4>Fun</h4></div>
+                    <div class="party"><h4>Party</h4></div>
+                    <div class="study"><h4>Study</h4></div>
+                </div>
+                <div class="rimi col-md-2">
+                    <h2>Rimi</h2>
+                    <div class="party"><h4>Party</h4></div>
+                    <div class="relax"><h4>Relax</h4></div>
+                    <div class="study"><h4>Study</h4></div>
+                    <div class="workout"><h4>Workout</h4></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="chart"></div>
+    <script src="js/vendor/jquery-1.10.1.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/chart2.js"></script>
 </body>
 </html>

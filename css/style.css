@@ -1,14 +1,18 @@
 /* Menu */
-.menuCols h2{
+#menu h2{
 	text-align: center;
 	color: #EFEFEF;
 }
-.menuCols h4{
+#menu h4{
 	text-align: center;
 	vertical-align: middle;
 	color: #FFF;
 	margin: 0px;
 	text-shadow: 2px 2px 4px #333;
+}
+
+#btn_back, #btn_toggle{
+	margin-top: 20px;
 }
 
 
@@ -17,37 +21,44 @@
 	background-image: url('../img/chill.png');
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
+	cursor: pointer;
 }
 
 .fun{
 	background-image: url('../img/fun.png');
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
+	cursor: pointer;
 }
 
 .party{
 	background-image: url('../img/party.png');
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
+	cursor: pointer;
 }
 
 .relax{
 	background-image: url('../img/relax.png');
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
+	cursor: pointer;
 }
 
 .study{
 	background-image: url('../img/study.png');
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
+	cursor: pointer;
 }
 
 .workout{
 	background-image: url('../img/workout.png');
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
+	cursor: pointer;
 }
+
 
 /* Shugo Playlist sizes */
 .shugo .party{
