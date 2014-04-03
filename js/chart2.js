@@ -18,7 +18,6 @@ function barStack(d) {
     return d
 }
 
-/* Here is an example */
 
 var allData = {"Study":[[{x:1,y:-3,genre:"Jazz",artists:["Chris Botti","Louis Armstrong","Thelonious Monk"]},{x:2,y:-6,genre:"Jazz",artists:[""]},{x:3,y:-3,genre:"Jazz",artists:["Benny Goodman","Frank Sinatra"]},{x:4,y:-3,genre:"Jazz",artists:["Chris Botti"]},{x:5,y: 0,genre:"Jazz",artists:[""]}],
              [{x:1,y:0,genre:"Classical",artists:["Wolfgang Mozart","Chicago Symphony"]},{x:2,y:-2,genre:"Classical",artists:["Ludwig Beethoven","Chicago Symphony"]},{x:3,y:-9,genre:"Classical",artists:["London Symphonic"]},{x:4,y:-3,genre:"Classical",artists:["Chicago Symphony","London Symphonic"]},{x:5,y:-6,genre:"Classical",artists:["Johann Bach","Johannes Brahms"]}],
@@ -58,8 +57,8 @@ var allData = {"Study":[[{x:1,y:-3,genre:"Jazz",artists:["Chris Botti","Louis Ar
              [{x:1,y:-5,genre:"Instrumental",artists:["Vitamin String Quartet"]},{x:2,y:-3,genre:"Instrumental",artists:[""]},{x:3,y:-2,genre:"Instrumental",artists:[""]},{x:4,y:-3,genre:"Instrumental",artists:["2Cellos"]},{x:5,y:0,genre:"Instrumental",artists:[""]}],
              [{x:1,y:-6,genre:"Techno",artists:["Fat Boy Slim","iiO"]},{x:2,y:-4,genre:"Techno",artists:[""]},{x:3,y:-6,genre:"Techno",artists:["Quench"]},{x:4,y:-7,genre:"Techno",artists:["Quench","OSnap!"]},{x:5,y:-2,genre:"Techno",artists:[""]}],
              [{x:1,y:0,genre:"Hip-Hop",artists:[""]},{x:2,y:-3,genre:"Hip-Hop",artists:[""]},{x:3,y:0,genre:"Hip-Hop",artists:["Kanye West","Jay-Z","50 Cent","Eminem","Lil Wayne"]},{x:4,y:-3,genre:"Hip-Hop",artists:[""]},{x:5,y:0,genre:"Hip-Hop",artists:[""]}],
-             [{x:1,y:0,genre:"World",artists:[""]},{x:2,y:-8,genre:"World",artists:["Shreya Ghoshal"]},{x:3,y:-7,genre:"World",artists:["Sunidhi Chauhan"]},{x:4,y:-3,genre:"World",artists:[""]},{x:5,y:-6,genre:"World",artists:["Alisha Chinai"]}]] }
-              
+             [{x:1,y:0,genre:"World",artists:[""]},{x:2,y:-8,genre:"World",artists:["Shreya Ghoshal"]},{x:3,y:-7,genre:"World",artists:["Sunidhi Chauhan"]},{x:4,y:-3,genre:"World",artists:[""]},{x:5,y:-6,genre:"World",artists:["Alisha Chinai"]}]] }            
+
 var data = allData["Chill"]
 
 function draw() {
@@ -149,5 +148,5 @@ function redraw() {
             .style("text-anchor", "middle")
             .style("font-weight", "bold");
 
-}
+    }
 }
