@@ -1,0 +1,67 @@
+/* Menu */
+.menuCols h2{
+	text-align: center;
+	color: #EFEFEF;
+}
+.menuCols h4{
+	text-align: center;
+	vertical-align: middle;
+	color: #EFEFEF;
+	margin: 0px;
+}
+
+
+/* Playlist Genres */
+.chill{
+	background-image: url('../img/chill.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.fun{
+	background-image: url('../img/fun.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.party{
+	background-image: url('../img/party.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.relax{
+	background-image: url('../img/relax.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.study{
+	background-image: url('../img/study.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+.workout{
+	background-image: url('../img/workout.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
+
+/* Shugo Playlist sizes */
+.shugo .party{
+	height: 75px;
+	width: 100%;
+}
+.shugo .relax{
+	height: 175px;
+	width: 100%;
+}
+.shugo .study{
+	height: 100px;
+	width: 100%;
+}
+.shugo .workout{
+	height: 50px;
+	width: 100%;
+}

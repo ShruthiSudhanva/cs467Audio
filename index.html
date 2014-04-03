@@ -4,6 +4,7 @@
 <script src="http://mbostock.github.com/d3/d3.v2.js"></script>
 <title>barStack</title>  
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
         <style>
             body {
                 padding-top: 20px;
@@ -18,13 +19,36 @@
                 text-align: center;
                 color: white;
             }
+
         </style>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body bgcolor="black">
-<h1>Study Playlists</h1>
-<div id="chart"></div>
+<h1 id="mTitle">Study Playlists</h1>
+<div id="menu">
+    <div class="container">
+        <div class="row menuCols" data-columns="10">
+            <div class="shugo col-md-2">
+                <h2>Shugo</h2>
+                <div class="party"><h4>Party</h4></div>
+                <div class="relax"><h4>Relax</h4></div>
+                <div class="study"><h4>Study</h4></div>
+                <div class="workout"><h4>Workout</h4></div>
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div id="chart"></div>-->
+<script src="js/nav.js"></script>
 <script src="js/chart2.js"></script>
 </body>
 </html>
