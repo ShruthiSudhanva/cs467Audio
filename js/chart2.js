@@ -20,7 +20,7 @@ function barStack(d) {
 
 /* Here is an example */
 
-var allData = {"Study":[[{x:1,y:-3,genre:"Jazz"},{x:2,y:-6,genre:"Jazz"},{x:3,y:-3,genre:"Jazz"},{x:4,y:-3,genre:"Jazz"},{x:5,y: 0,genre:"Jazz"}],
+var allData = {"Study":[[{x:1,y:-3,genre:"Jazz",artists:{"BLAH","BLAH"}},{x:2,y:-6,genre:"Jazz",artists:{"BLAH","BLAH"}},{x:3,y:-3,genre:"Jazz",artists:{"BLAH","BLAH"}},{x:4,y:-3,genre:"Jazz",artists:{"BLAH","BLAH"}},{x:5,y: 0,genre:"Jazz"},artists:{"BLAH","BLAH"}],
             [{x:1,y:0,genre:"Classical"},{x:2,y:-2,genre:"Classical"},{x:3,y:-9,genre:"Classical"},{x:4,y:-3,genre:"Classical"},{x:5,y:-6,genre:"Classical"}],
             [{x:1,y:-10,genre:"Karnatic"},{x:2,y:-3,genre:"Karnatic"},{x:3,y:0,genre:"Karnatic"},{x:4,y:-3,genre:"Karnatic"},{x:5,y:-6,genre:"Karnatic"}],
             [{x:1,y:-5,genre:"Instrumental"},{x:2,y:-3,genre:"Instrumental"},{x:3,y:-2,genre:"Instrumental"},{x:4,y:-3,genre:"Instrumental"},{x:5,y:0,genre:"Instrumental"}]]
